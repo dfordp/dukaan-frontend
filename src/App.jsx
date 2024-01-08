@@ -4,11 +4,11 @@ import Sidebar from "./components/sidebar"
 
 const App = () => {
   return (
-    <div className="flex flex-row h-screen w-full">
+    <div className="flex flex-row justify-between w-full ">
       <div>
         <Sidebar/>
       </div>
-      <div>
+      <div className="flex flex-col flex-grow bg-zinc-100">
         <Header/>
         <MainPage/>
       </div>

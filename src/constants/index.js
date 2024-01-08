@@ -48,3 +48,23 @@ export const items = [
       title: "Plugins"
     },
   ];
+
+
+  export const paymentMethods = [
+    {
+      name: 'Razorpay',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets/TEMP/28ba121286ad0937d9c0374e425bb18ea6d45fee9fb19c8e4af38464f1cbd6c4?apiKey=3c243bff4d854143b1e24c4a3a578c5d&',
+    },
+    {
+      name: 'Cashfree Payments',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets/TEMP/c109f9b20145994f05786d3727a82bddb7436e2fdf883fae41f0c51e0723e304?apiKey=3c243bff4d854143b1e24c4a3a578c5d&',
+    },
+    {
+      name: 'PhonePe Payment Gateway',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets/TEMP/caa9810884198f55953096372c7d9b4f1c20b71b9d7bc3670bf7a76e13440f59?apiKey=3c243bff4d854143b1e24c4a3a578c5d&',
+    },
+    {
+      name: 'Paytm Payment Gateway',
+      imageUrl: 'https://cdn.builder.io/api/v1/image/assets/TEMP/6579400125998249ff16934453911be5100686bdd4da7afc37509c840e54b593?apiKey=3c243bff4d854143b1e24c4a3a578c5d&',
+    }
+  ];
