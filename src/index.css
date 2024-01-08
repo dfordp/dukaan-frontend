@@ -1,3 +1,6 @@
+/* @import url('./fonts/InterVariable.ttf');
+@import url('./fonts/GalanoGrotesque.otf'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

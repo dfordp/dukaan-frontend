@@ -1,9 +1,17 @@
-import React from 'react'
+import Header from "./components/header"
+import MainPage from "./components/main-page"
+import Sidebar from "./components/sidebar"
 
 const App = () => {
   return (
-    <div>
-      
+    <div className="flex flex-row" >
+      <div>
+        <Sidebar/>
+      </div>
+      <div>
+        <Header/>
+        <MainPage/>
+      </div>
     </div>
   )
 }
