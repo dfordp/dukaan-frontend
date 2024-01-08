@@ -4,7 +4,7 @@ const Header = () => {
       <div className="rounded bg-white flex aspect-square flex-col justify-center items-center w-10 h-10 px-px">
         <img
           loading="lazy"
-          srcSet="..."
+          srcSet="/src/assets/figma-assets/profile.png"
           className="aspect-square object-contain object-center w-full overflow-hidden"
         />
       </div>

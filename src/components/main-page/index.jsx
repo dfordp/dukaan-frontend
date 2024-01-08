@@ -1,6 +1,7 @@
 const MainPage = () => {
   return (
-    <span className="items-stretch shadow-sm bg-white self-center flex w-[760px] max-w-full flex-col mt-8 p-6 rounded-lg max-md:px-5">
+    <div>
+       <span className="items-stretch shadow-sm bg-white self-center flex w-[760px] max-w-full flex-col mt-8 p-6 rounded-lg max-md:px-5">
     <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
       Payment providers
     </div>
@@ -111,6 +112,8 @@ const MainPage = () => {
       Finish
     </span>
   </span>
+  </div>
+   
   
   
   )
