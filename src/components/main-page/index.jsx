@@ -1,126 +1,118 @@
 const MainPage = () => {
   return (
-    <div className="w-[760px] h-[712px] flex-col justify-start items-end gap-8 inline-flex">
-      <div className="flex-col justify-start items-end gap-8 flex">
-        <div className="flex-col justify-start items-start gap-6 flex">
-          <div className="p-6 bg-white rounded-lg shadow flex-col justify-start items-center gap-6 flex">
-            <div className="flex-col justify-start items-center gap-6 flex">
-              <div className="flex-col justify-start items-start gap-6 flex">
-                <div className="flex-col justify-start items-start gap-0.5 flex">
-                  <div className="w-[712px] text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Payment providers</div>
-                  <div className="text-zinc-500 text-sm font-normal font-['Galano Grotesque'] leading-tight">Set up payment providers to accept payments from your customers.</div>
-                </div>
-              </div>
-            </div>
-            <div className="flex-col justify-start items-start gap-4 flex">
-              <div className="w-[712px] rounded justify-start items-center gap-6 inline-flex">
-                <div className="grow shrink basis-0 h-16 justify-start items-center gap-4 flex">
-                  <div className="w-16 h-16 relative rounded border border-neutral-200">
-                    <div className="w-[48.77px] h-[30.14px] left-[8px] top-[17px] absolute">
-                      <div className="w-[48.77px] h-[9.49px] left-0 top-[20.65px] absolute">
-                      </div>
-                      <div className="w-[14.23px] h-4 left-[17.72px] top-0 absolute">
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                    <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Razorpay</div>
-                  </div>
-                </div>
-                <div className="px-4 py-2 rounded border border-sky-700 justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-sky-700 text-sm font-medium font-['Galano Grotesque'] leading-tight">Set up</div>
-                </div>
-              </div>
-              <div className="w-[712px] rounded justify-start items-center gap-6 inline-flex">
-                <div className="grow shrink basis-0 h-16 justify-start items-center gap-4 flex">
-                  <div className="w-16 h-16 relative">
-                    <div className="w-16 h-16 left-0 top-0 absolute rounded border border-neutral-200" />
-                    <div className="w-[49px] h-[14.30px] left-[7.10px] top-[24.40px] absolute">
-                      <div className="w-[39.22px] h-[14.30px] left-[9.78px] top-[-0px] absolute">
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                    <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Cashfree Payments</div>
-                  </div>
-                </div>
-                <div className="px-4 py-2 rounded border border-sky-700 justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-sky-700 text-sm font-medium font-['Galano Grotesque'] leading-tight">Set up</div>
-                </div>
-              </div>
-              <div className="w-[712px] rounded justify-start items-center gap-6 inline-flex">
-                <div className="grow shrink basis-0 h-16 justify-start items-center gap-4 flex">
-                  <div className="w-16 h-16 relative">
-                    <div className="w-16 h-16 left-0 top-0 absolute rounded border border-neutral-200" />
-                    <div className="w-[45.37px] h-[32.36px] left-[9px] top-[16px] absolute">
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                    <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">PhonePe Payment Gateway</div>
-                  </div>
-                </div>
-                <div className="px-4 py-2 rounded border border-sky-700 justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-sky-700 text-sm font-medium font-['Galano Grotesque'] leading-tight">Set up</div>
-                </div>
-              </div>
-              <div className="w-[712px] rounded justify-start items-center gap-6 inline-flex">
-                <div className="grow shrink basis-0 h-16 justify-start items-center gap-4 flex">
-                  <div className="w-16 h-16 relative">
-                    <div className="w-16 h-16 left-0 top-0 absolute rounded border border-neutral-200" />
-                    <div className="w-12 h-[15px] left-[8px] top-[24px] absolute">
-                      <div className="w-12 h-[14.97px] left-[0.02px] top-[0.02px] absolute">
-                      </div>
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                    <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Paytm Payment Gateway</div>
-                  </div>
-                </div>
-                <div className="px-4 py-2 rounded border border-sky-700 justify-center items-center gap-2.5 flex">
-                  <div className="text-center text-sky-700 text-sm font-medium font-['Galano Grotesque'] leading-tight">Set up</div>
-                </div>
-              </div>
-              <div className="w-[712px] rounded justify-start items-center gap-6 inline-flex">
-                <div className="grow shrink basis-0 h-16 justify-start items-center gap-4 flex">
-                  <div className="w-16 h-16 relative">
-                    <div className="w-16 h-16 left-0 top-0 absolute rounded border border-neutral-200" />
-                    <div className="w-10 h-4 left-[12px] top-[23px] absolute">
-                    </div>
-                  </div>
-                  <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                    <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Cash on delivery</div>
-                    <div className="w-[576px] text-neutral-600 text-sm font-normal font-['Inter'] leading-tight">Receive payments in cash upon delivery.</div>
-                  </div>
-                </div>
-                <div className="w-9 h-[22px] relative">
-                  <div className="w-9 h-[22px] left-0 top-0 absolute">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="rounded-lg shadow flex-col justify-start items-center flex">
-            <div className="p-6 bg-white flex-col justify-start items-start gap-6 flex">
-              <div className="w-[712px] justify-start items-start gap-8 inline-flex">
-                <div className="grow shrink basis-0 flex-col justify-start items-start gap-0.5 inline-flex">
-                  <div className="self-stretch text-zinc-900 text-base font-medium font-['Galano Grotesque'] leading-normal">Manual payment methods</div>
-                  <div className="self-stretch text-zinc-500 text-sm font-normal font-['Inter'] leading-tight">Payments that are made outside online store. Allows you to accept cash, check or other custom forms of payment.</div>
-                </div>
-                <div className="w-9 h-[22px] relative">
-                  <div className="w-9 h-[22px] left-0 top-0 absolute">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <span className="items-stretch shadow-sm bg-white self-center flex w-[760px] max-w-full flex-col mt-8 p-6 rounded-lg max-md:px-5">
+    <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
+      Payment providers
+    </div>
+    <div className="text-zinc-500 text-sm leading-5 max-md:max-w-full">
+      Set up payment providers to accept payments from your customers.
+    </div>
+    <div className="items-stretch rounded flex justify-between gap-5 mt-6 max-md:max-w-full max-md:flex-wrap">
+      <span className="items-stretch flex justify-between gap-4 max-md:max-w-full max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/28ba121286ad0937d9c0374e425bb18ea6d45fee9fb19c8e4af38464f1cbd6c4?"
+          className="aspect-square object-contain object-center w-16 stroke-[1px] stroke-neutral-200 overflow-hidden shrink-0 max-w-full"
+        />
+        <div className="self-center text-zinc-900 text-base font-medium leading-6 grow my-auto max-md:max-w-full">
+          Razorpay
         </div>
+      </span>
+      <span className="text-sky-700 text-center text-sm font-medium leading-5 whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Primary-Blue,#146EB4)] self-center my-auto px-4 py-2 border-solid">
+        Set up
+      </span>
+    </div>
+    <div className="items-stretch rounded flex justify-between gap-5 mt-4 max-md:max-w-full max-md:flex-wrap">
+      <span className="items-stretch flex justify-between gap-4 max-md:max-w-full max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/c109f9b20145994f05786d3727a82bddb7436e2fdf883fae41f0c51e0723e304?"
+          className="aspect-square object-contain object-center w-16 overflow-hidden shrink-0 max-w-full"
+        />
+        <div className="self-center text-zinc-900 text-base font-medium leading-6 grow my-auto max-md:max-w-full">
+          Cashfree Payments
+        </div>
+      </span>
+      <span className="text-sky-700 text-center text-sm font-medium leading-5 whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Primary-Blue,#146EB4)] self-center my-auto px-4 py-2 border-solid">
+        Set up
+      </span>
+    </div>
+    <div className="items-stretch rounded flex justify-between gap-5 mt-4 max-md:max-w-full max-md:flex-wrap">
+      <span className="items-stretch flex justify-between gap-4 max-md:max-w-full max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/caa9810884198f55953096372c7d9b4f1c20b71b9d7bc3670bf7a76e13440f59?"
+          className="aspect-square object-contain object-center w-16 overflow-hidden shrink-0 max-w-full"
+        />
+        <div className="self-center text-zinc-900 text-base font-medium leading-6 grow my-auto max-md:max-w-full">
+          PhonePe Payment Gateway
+        </div>
+      </span>
+      <span className="text-sky-700 text-center text-sm font-medium leading-5 whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Primary-Blue,#146EB4)] self-center my-auto px-4 py-2 border-solid">
+        Set up
+      </span>
+    </div>
+    <div className="items-stretch rounded flex justify-between gap-5 mt-4 max-md:max-w-full max-md:flex-wrap">
+      <span className="items-stretch flex justify-between gap-4 max-md:max-w-full max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/6579400125998249ff16934453911be5100686bdd4da7afc37509c840e54b593?"
+          className="aspect-square object-contain object-center w-16 overflow-hidden shrink-0 max-w-full"
+        />
+        <div className="self-center text-zinc-900 text-base font-medium leading-6 grow my-auto max-md:max-w-full">
+          Paytm Payment Gateway
+        </div>
+      </span>
+      <span className="text-sky-700 text-center text-sm font-medium leading-5 whitespace-nowrap justify-center items-stretch rounded border border-[color:var(--Primary-Blue,#146EB4)] self-center my-auto px-4 py-2 border-solid">
+        Set up
+      </span>
+    </div>
+    <div className="items-stretch rounded flex justify-between gap-5 mt-4 max-md:max-w-full max-md:flex-wrap">
+      <div className="items-stretch flex justify-between gap-4 max-md:max-w-full max-md:flex-wrap">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/6bc39171791a85a444b23a1983c2f6ea5e45b33d6aa7eea36ec423fdbee65453?"
+          className="aspect-square object-contain object-center w-16 overflow-hidden shrink-0 max-w-full"
+        />
+        <span className="items-stretch self-center flex grow basis-[0%] flex-col my-auto max-md:max-w-full">
+          <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
+            Cash on delivery
+          </div>
+          <div className="text-neutral-600 text-sm leading-5 max-md:max-w-full">
+            Receive payments in cash upon delivery.
+          </div>
+        </span>
       </div>
-      <div className="px-6 py-2 opacity-40 bg-sky-700 rounded justify-center items-center gap-2.5 inline-flex">
-        <div className="justify-start items-start gap-2 flex">
-          <div className="text-center text-white text-base font-medium font-['Inter'] leading-normal">Finish</div>
-        </div>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/ec14c7c54d2a27eba0ec941d761fac5b0c8729c4bb1cdaf2f205b6b473b6e56c?"
+        className="aspect-[1.64] object-contain object-center w-9 justify-center items-center overflow-hidden self-center shrink-0 max-w-full my-auto"
+      />
+    </div>
+    <div className="items-stretch bg-white self-center flex w-[760px] max-w-full flex-col justify-center mt-6 p-6 max-md:px-5">
+      <div className="items-stretch flex justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+        <span className="items-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
+          <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
+            Manual payment methods
+          </div>
+          <div className="text-zinc-500 text-sm leading-5 max-md:max-w-full">
+            Payments that are made outside online store. Allows you to accept
+            cash, check or other custom forms of payment.
+          </div>
+        </span>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/aefa12f6814f13824f099370b0cf285b63bbda4cdc130ab20b9e88454c131e35?"
+          className="aspect-[1.64] object-contain object-center w-9 justify-center items-center overflow-hidden shrink-0 max-w-full self-start"
+        />
       </div>
     </div>
+    <span className="text-white text-center text-base font-medium leading-6 whitespace-nowrap justify-center items-stretch rounded bg-sky-700 mr-56 mt-8 px-6 py-2 self-end max-md:mr-2.5 max-md:px-5">
+      Finish
+    </span>
+  </span>
+  
+  
   )
 }
 

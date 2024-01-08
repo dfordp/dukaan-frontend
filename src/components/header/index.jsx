@@ -1,47 +1,55 @@
 const  Header= () => {
   return (
-    <div className="w-[1216px] h-16 bg-white justify-start items-start inline-flex">
-      <div className="w-[1216px] h-16 px-8 py-3 bg-white border-b border-zinc-300 justify-start items-center gap-4 flex">
-        <div className="grow shrink basis-0 h-7 justify-start items-center gap-6 flex">
-          <div className="flex-col justify-center items-start gap-0.5 inline-flex">
-            <div className="justify-start items-center gap-3 inline-flex">
-              <div className="justify-start items-center gap-2 flex">
-                <div className="justify-start items-center gap-4 flex">
-                  <div className="text-zinc-900 text-xl font-medium font-['Inter'] leading-7">Payments</div>
-                </div>
-                <div className="justify-start items-center gap-1.5 flex">
-                  <div className="w-3.5 h-3.5 relative" />
-                  <div className="text-neutral-600 text-xs font-normal font-['Inter'] leading-none">How it works</div>
-                </div>
-              </div>
-            </div>
-          </div>
+    <div className="items-center border-b-[color:var(--Black-85,#D9D9D9)] bg-white flex w-full justify-between gap-5 px-8 py-3 border-b border-solid max-md:max-w-full max-md:flex-wrap max-md:px-5">
+      <span className="items-stretch flex gap-2 my-auto">
+        <div className="text-zinc-900 text-xl font-medium leading-7 grow whitespace-nowrap">
+          Payments
         </div>
-        <div className="h-10 justify-start items-start flex">
-          <div className="grow shrink basis-0 h-10 px-4 py-2.5 bg-zinc-100 rounded border border-neutral-200 justify-start items-center gap-2 flex">
-            <div className="w-3.5 h-3.5 relative" />
-            <div className="grow shrink basis-0 text-zinc-500 text-sm font-normal font-['Inter'] leading-tight">Search features, tutorials, etc.</div>
+        <span className="self-center flex gap-1.5 my-auto items-start">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/7d09b9811c2e75bc693a6b4dad5c9aff9433906f4c169d96b07f6a6277e47261?"
+            className="aspect-square object-contain object-center w-3.5 overflow-hidden shrink-0 max-w-full"
+          />
+          <div className="text-neutral-600 text-xs leading-4 self-stretch grow whitespace-nowrap">
+            How it works
           </div>
+        </span>
+      </span>
+      <span className="items-center rounded border border-[color:var(--Black-90,#E6E6E6)] bg-zinc-100 self-stretch flex justify-between gap-2 px-4 py-2.5 border-solid">
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/8dcf7c4a0c9deacff9da8103d54af3a4a4e95e18bb7074825ab42266b34518e4?"
+          className="aspect-square object-contain object-center w-3.5 overflow-hidden shrink-0 max-w-full my-auto"
+        />
+        <div className="text-zinc-500 text-sm leading-5 self-stretch grow whitespace-nowrap">
+          Search features, tutorials, etc.
         </div>
-        <div className="grow shrink basis-0 h-10 justify-end items-center gap-3 flex">
-          <div className="justify-start items-center gap-3 flex">
-            <div className="justify-end items-center gap-1.5 flex">
-              <div className="w-4 h-4 relative" />
-              <div className="justify-end items-center gap-5 flex">
-                <div className="text-right text-neutral-600 text-[13px] font-medium font-['Inter'] leading-none">Need help?</div>
-                <div className="w-px h-6 bg-zinc-300" />
-              </div>
+      </span>
+      <div className="items-center self-stretch flex gap-3">
+        <div className="justify-end items-center flex gap-1.5 my-auto">
+          <img
+            loading="lazy"
+            src="https://cdn.builder.io/api/v1/image/assets/TEMP/973e1810feb7e56707622b41de893d3527fee0e0e28f864269d782ef7282bfd4?"
+            className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
+          />
+          <span className="justify-between items-center self-stretch flex gap-5">
+            <div className="text-neutral-600 text-right text-sm font-medium leading-4 my-auto">
+              Need help?
             </div>
-            <div className="w-10 h-10 relative">
-              <div className="w-10 h-10 left-0 top-0 absolute bg-neutral-200 rounded-full" />
-              <div className="w-[18.89px] h-[22.22px] left-[10.56px] top-[8.89px] absolute">
-              </div>
-            </div>
-            <div className="w-10 h-10 relative">
-              <div className="w-10 h-10 left-0 top-0 absolute bg-neutral-200 rounded-full" />
-            </div>
-          </div>
+            <div className="bg-zinc-300 self-stretch flex w-px shrink-0 h-6 flex-col" />
+          </span>
         </div>
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/d981c43c218a93158db2b6432dbf07405683d703b5b1b45a2f4864ce9b6725a8?"
+          className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full"
+        />
+        <img
+          loading="lazy"
+          src="https://cdn.builder.io/api/v1/image/assets/TEMP/eedb73258c91e2326cf6a4d2d8cd9514a03423608f67146a7efc73f23e6b507b?"
+          className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full"
+        />
       </div>
     </div>
   )

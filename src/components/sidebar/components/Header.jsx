@@ -1,13 +1,26 @@
 const Header = () => {
   return (
-    <div className="w-48 justify-start items-center gap-3 inline-flex">
-        <img className="w-10 h-10 bg-white rounded"  src="/src/assets/figma-assets/profile.png"/>
-        <div className="grow shrink basis-0 flex-col justify-center items-start gap-1 inline-flex">
-            <div className="self-stretch text-white text-[15px] font-medium font-['Inter'] leading-snug">Nishyan</div>
-            <div className="self-stretch opacity-80 text-white text-[13px] font-normal font-['Galano Grotesque'] underline leading-none">Visit store</div>
+    <div className="flex gap-3 pr-4 items-start">
+      <div className="rounded bg-white flex aspect-square flex-col justify-center items-center w-10 h-10 px-px">
+        <img
+          loading="lazy"
+          srcSet="..."
+          className="aspect-square object-contain object-center w-full overflow-hidden"
+        />
+      </div>
+      <span className="justify-center items-stretch self-stretch flex grow basis-[0%] flex-col">
+        <div className="text-white text-base font-medium leading-6 whitespace-nowrap">
+          Nishyan
         </div>
-        {/* <img className="w-[39px] h-[39px] left-[0.50px] top-[0.50px] absolute rounded" src="https://via.placeholder.com/39x39" /> */}
-        <img className="w-5 h-5 relative" src="/src/assets/figma-assets/Chevron Down.svg"/>
+        <div className="text-white text-sm leading-4 underline whitespace-nowrap mt-1">
+          Visit store
+        </div>
+      </span>
+      <img
+        loading="lazy"
+        src="https://cdn.builder.io/api/v1/image/assets/TEMP/6f5f608b6ce9730cea85c11c8d232d87963ed700103a61e54af2a14cec35feae?"
+        className="aspect-square object-contain object-center w-5 overflow-hidden self-center shrink-0 max-w-full my-auto"
+      />
     </div>
   )
 }
