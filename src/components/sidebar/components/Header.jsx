@@ -4,7 +4,7 @@ const Header = () => {
       <div className="rounded bg-white flex aspect-square flex-col justify-center items-center w-10 h-10 px-px">
         <img
           loading="lazy"
-          srcSet="/src/assets/figma-assets/profile.png"
+          srcSet="https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9d4dc08a3d514c1ce26a6659f516d536476ba2744181946b8a7da13d1768d91c?apiKey=3c243bff4d854143b1e24c4a3a578c5d&"
           className="aspect-square object-contain object-center w-full overflow-hidden"
         />
       </div>

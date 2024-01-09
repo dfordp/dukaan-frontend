@@ -8,9 +8,9 @@ const Sidebar = () => {
 
 
   return (
-    <div className="items-stretch bg-slate-800 flex w-full grow flex-col mx-auto px-2 py-4">
+    <div className="items-stretch bg-slate-800 flex w-full grow flex-col mx-auto px-2 py-4 font-questrial">
       <Header/>
-      <div className="mt-8">
+      <div className="mt-5">
       {items.map((item, index) => (
         item.title === 'Payments'
           ? <OverlayItem key={index} imageUrl={item.imageUrl} title={item.title} />

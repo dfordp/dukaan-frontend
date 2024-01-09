@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <div className="items-stretch rounded bg-slate-700 flex w-full flex-col justify-center mt-72 pl-3.5 pr-9 py-1.5 max-md:mt-10 max-md:pr-5">
+    <div className="items-stretch rounded bg-slate-700 flex w-full flex-col justify-center mt-36 pl-3.5 pr-9 py-1.5 max-md:mt-10 max-md:pr-5">
       <div className="items-center flex justify-between gap-3">
         <div className="items-center rounded bg-white bg-opacity-10 flex aspect-[1.0833333333333333] flex-col justify-center my-auto px-2 py-1.5">
           <img

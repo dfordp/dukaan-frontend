@@ -3,7 +3,7 @@ import ManualPayment from "./Components/ManualPayment"
 
 const MainPage = () => {
   return (
-  <div className="flex flex-col items-center justify-center">  
+  <div className="flex flex-col items-center justify-center font-questrial">  
     <div className="items-stretch shadow-sm bg-white self-center flex w-[760px] max-w-full flex-col mt-8 p-6 rounded-lg max-md:px-5">
       <PaymentMethods/>
     </div>

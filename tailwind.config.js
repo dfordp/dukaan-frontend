@@ -7,9 +7,12 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'inter': ['Inter', 'sans-serif'],
-        'galano': ['"Galano Grotesque"', 'sans-serif'],
-      }
+        'inter': ['InterVariable', 'sans-serif'],
+        'questrial': ['Questrial', 'sans-serif'],
+      },
+      colors: {
+        'black-85': '#D9D9D9',
+      },
     }
   },
   plugins: [],
