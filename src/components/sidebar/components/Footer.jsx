@@ -11,7 +11,7 @@ const Footer = () => {
           />
         </div>
         <span className="items-stretch self-stretch flex grow basis-[0%] flex-col">
-          <div className="text-white text-sm leading-4 whitespace-nowrap">
+          <div className="text-white text-sm leading-4 whitespace-nowrap font-light">
             Available credits
           </div>
           <div className="text-white text-base font-medium leading-6">

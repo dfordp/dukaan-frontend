@@ -1,7 +1,7 @@
 const ManualPayment = () => {
   return (
-    <div className="items-stretch bg-white self-center flex w-[760px] max-w-full flex-col justify-center mt-6 p-6 max-md:px-5">
-      <div className="items-stretch flex justify-between gap-5 max-md:max-w-full max-md:flex-wrap">
+    <div className="bg-white flex w-[760px] h-[114px] flex-col justify-center items-start mt-6 p-6 inline-flex rounded-lg shadow-sm">
+      <div className="w-[712px] justify-start items-start gap-8 inline-flex">
         <span className="items-stretch flex grow basis-[0%] flex-col max-md:max-w-full">
           <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
             Manual payment methods

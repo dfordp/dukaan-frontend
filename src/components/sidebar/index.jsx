@@ -8,7 +8,7 @@ const Sidebar = () => {
 
 
   return (
-    <div className="items-stretch bg-slate-800 flex w-full grow flex-col mx-auto px-2 py-4 font-questrial">
+    <div className="items-stretch bg-slate-800 flex w-full grow flex-col mx-auto px-2 py-4 font-['Galano Grotesque']">
       <Header/>
       <div className="mt-5">
       {items.map((item, index) => (

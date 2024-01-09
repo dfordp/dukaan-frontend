@@ -7,7 +7,7 @@ const Item = ({ imageUrl, title, className }) => (
       src={imageUrl}
       className="aspect-square object-contain object-center w-5 overflow-hidden shrink-0 max-w-full"
     />
-    <div className="text-white text-sm font-medium leading-5 grow whitespace-nowrap">
+    <div className="text-white text-sm font-light leading-5 grow whitespace-nowrap">
       {title}
     </div>
   </span>
