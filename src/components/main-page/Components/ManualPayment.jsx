@@ -6,7 +6,7 @@ const ManualPayment = () => {
           <div className="text-zinc-900 text-base font-medium leading-6 max-md:max-w-full">
             Manual payment methods
           </div>
-          <div className="text-zinc-500 text-sm leading-5 max-md:max-w-full">
+          <div className="text-zinc-500 text-sm leading-5 ">
             Payments that are made outside online store. Allows you to accept
             cash, check or other custom forms of payment.
           </div>

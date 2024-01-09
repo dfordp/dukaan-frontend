@@ -20,7 +20,7 @@ const PaymentMethods = () => {
                 <div className="self-stretch text-zinc-900 text-base font-medium leading-normal">{method.name}</div>
               </div>
             </div>
-            <div className="px-4 py-2 rounded border border-sky-700 justify-center items-center gap-2.5 flex">
+            <div className="px-4 py-2 rounded border border-sky-700 hover:opacity-50 justify-center items-center gap-2.5 flex">
               <div className="text-center text-sky-700 text-sm font-medium  leading-tight">Set up</div>
             </div>
           </div>

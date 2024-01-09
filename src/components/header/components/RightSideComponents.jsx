@@ -8,21 +8,21 @@ const RightSideComponents = () => {
         className="aspect-square object-contain object-center w-4 overflow-hidden shrink-0 max-w-full my-auto"
       />
       <span className="justify-between items-center self-stretch flex gap-5">
-        <div className="text-neutral-600 text-right text-sm font-medium leading-4 my-auto">
+        <button className="text-neutral-600 text-right text-sm font-medium leading-4 my-auto hover:opacity-75">
           Need help?
-        </div>
+        </button>
         <div className="bg-zinc-300 self-stretch flex w-px shrink-0 h-6 flex-col" />
       </span>
     </div>
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/d981c43c218a93158db2b6432dbf07405683d703b5b1b45a2f4864ce9b6725a8?"
-      className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full"
+      className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full hover:opacity-75"
     />
     <img
       loading="lazy"
       src="https://cdn.builder.io/api/v1/image/assets/TEMP/eedb73258c91e2326cf6a4d2d8cd9514a03423608f67146a7efc73f23e6b507b?"
-      className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full"
+      className="aspect-square object-contain object-center w-10 overflow-hidden self-stretch shrink-0 max-w-full hover:opacity-75"
     />
   </div>
   )
