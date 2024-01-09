@@ -18,3 +18,17 @@
   .animate-slide-in {
     animation: slide-in 0.5s forwards;
   }
+
+  /* Hide on screens smaller than 768px */
+@media (max-width: 767px) {
+  .search-bar {
+    display: none;
+  }
+}
+
+/* Hide on screens smaller than 992px */
+@media (max-width: 991px) {
+  .search-bar {
+    display: none;
+  }
+}

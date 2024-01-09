@@ -8,7 +8,7 @@ const SearchBar = () => {
   };
 
   return (
-    <div className="h-10 pl-2 pr-40 py-2.5 bg-zinc-100 rounded border border-neutral-200 justify-start items-center gap-2 flex">
+    <div className="search-bar  h-10 pl-2 pr-40 py-2.5 bg-zinc-100 rounded border border-neutral-200 justify-start items-center gap-2 flex">
       <button>
         <img
           loading="lazy"

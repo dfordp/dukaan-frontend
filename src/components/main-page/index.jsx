@@ -9,10 +9,10 @@ const MainPage = () => {
     </div>
     <div>
       <ManualPayment/>
-      <div className="w-full flex justify-end mt-8">
+      <div className="w-full flex justify-end mt-8 md:mb-4 sm:mb-4">
       <div className="w-[94px] h-10 px-6 py-2 hover:opacity-40 bg-sky-700 rounded justify-center items-center gap-2.5 inline-flex">
         <div className="justify-start items-start gap-2 flex">
-          <div className="text-center text-white text-base font-medium leading-normal">Finish</div>
+          <buton className="text-center text-white text-base font-medium leading-normal">Finish</buton>
         </div>
       </div>
     </div>
